@@ -33,6 +33,11 @@ body{
     flex-wrap: wrap;
 }
 
+.g{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 h1{
     font-size: 2.2em;
     font-weight: bold;
@@ -81,4 +86,12 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1, #c-6-
 
 @media screen and (max-width: 700px) {
     #bg{height: 80vh;}
+}
+
+@media screen and (min-width: 1500px)  {
+    .g{grid-template-columns: auto auto auto auto;}
+}
+
+@media screen and (max-width: 670px)  {
+    .g{grid-template-columns: auto;}
 }
