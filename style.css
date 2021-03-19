@@ -55,11 +55,16 @@ main{
 .sm img{
     height: 40px;
     padding-top: 7px;
+    transition: .3s ease-in-out;
+}
+
+.sm img:hover{
+    transform: scale(1.2);
 }
 
 .icon{
     width: 100px;
-    height: 100px;
+    height: 95px;
     background: white;
     clip-path: polygon(93.30127018922194% 75%,93.30127018922194% 25.000000000000004%,50% 0%,6.698729810778062% 25.000000000000004%,6.698729810778062% 74.99999999999999%,49.99999999999994% 100%);
     display: flex;
@@ -67,12 +72,13 @@ main{
     align-items: center;
     position: relative;
     margin: 5px 0;
+    cursor: pointer;
 }
 
 .icon::after{
     content: "";
     width: 98px;
-    height: 98px;
+    height: 93px;
     position: absolute ;
     z-index: -1;
     background: #030517;
