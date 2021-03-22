@@ -1,25 +1,35 @@
 .gallery{
 	width: 100%;
-	max-width: 1000px;
-	height: 600px;
-	margin: 0 auto;
+	max-width: 900px;
+	/* height: 600px; */
+	margin: 2em auto;
 	display: flex;
-  	gap: 10px;
+  	padding: 5px;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items:center;
+	/* justify-content: center;
+	align-items:center; */
+    /* background: red; */
+    position: relative;
+   
 }
 
 .bujo img{
 	height: 200px;
+    max-width: 300px;
 	cursor: pointer;
+    position: relative;
+    border: 2px solid snow;
+    -ms-flex-item-align: center;
 }
 
 .bujo img:hover {
   transform: scale(1.08);
   transition: transform  450ms;
 }
-
+.bimg{
+    position: relative;
+    overflow: hidden;
+}
 .modal {
   position: fixed;
   height: 100%;
