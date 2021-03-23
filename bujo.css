@@ -1,4 +1,3 @@
-
 .bujo{
     max-width: 880px;
     display: flex;
@@ -20,58 +19,58 @@
 }
 
 .bujo img:hover {
-  transform: scale(1.08);
-  transition: transform  450ms;
-  z-index: 5;
-  box-shadow: 0 0 20px #000;
+    transform: scale(1.08);
+    transition: transform  450ms;
+    z-index: 5;
+    box-shadow: 0 0 20px #000;
 }
 
-
 .modal {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-  z-index: 12;
-  overflow: hidden;
-  opacity: 0;
-  pointer-events: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 12;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .modalContent {
-  height: 70vh;
-  margin-top: 15vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    height: 70vh;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .modalImg {
-  max-height: 70vh;
-  max-width: 80%;;
+    max-height: 70vh;
+    max-width: 80%;
 }
 
 .close {
-  position: absolute;
-  top: 1em;
-  right: 1.5em;
-  font-size: 1.5em;
-  cursor: pointer;
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    font-size: 1.5em;
+    cursor: pointer;
 }
+
 .modal.appear {
-  opacity: 1;
-  pointer-events: all;
+    opacity: 1;
+    pointer-events: all;
 }
 
 .modal.appear .modalImg,
 {
-  animation: zoom 0.6s ease-in-out;
+    animation: zoom 0.6s ease-in-out;
 }
 
 @keyframes zoom {
-  from {transform: scale(0.1)} 
-  to {transform: scale(1)}
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
 }
