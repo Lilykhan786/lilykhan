@@ -76,14 +76,18 @@ main{
     clip-path: polygon(93.30127018922194% 75%,93.30127018922194% 25.000000000000004%,50% 0%,6.698729810778062% 25.000000000000004%,6.698729810778062% 74.99999999999999%,49.99999999999994% 100%);
 }
 
-
-
 .icon:hover{
     transform: translateY(-10px);
-    /* background: var(--purple); */
 }
 
 .copyright{padding: 20px;}
+
+.shape{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    z-index: -2;
+}
 
 @media screen and (max-width: 732px) {
     .boox{margin:0 1em; padding: 0px 2em .5em 2em;}
