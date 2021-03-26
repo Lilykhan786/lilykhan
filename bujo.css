@@ -1,5 +1,5 @@
 .gallery{
-    margin: 3em auto;
+    margin: 5em auto;
 }
 
 .bujo{
@@ -9,7 +9,6 @@
     justify-content: center;
     align-items: center;
     margin: 3em 20px;
-    overflow: hidden;
 }
 
 .bimg{
@@ -22,14 +21,14 @@
     border: var(--border);
 }
 
-.bujo img:hover {
+.bujo img:hover{
     transform: scale(1.08);
     transition: transform  450ms;
     z-index: 5;
     box-shadow: 0 0 20px #000;
 }
 
-.modal {
+.modal{
     position: fixed;
     height: 100%;
     width: 100%;
@@ -42,7 +41,7 @@
     pointer-events: none;
 }
 
-.modalContent {
+.modalContent{
     height: 70vh;
     margin-top: 15vh;
     display: flex;
@@ -51,12 +50,12 @@
     align-items: center;
 }
 
-.modalImg {
+.modalImg{
     max-height: 70vh;
     max-width: 80%;
 }
 
-.close {
+.close{
     position: absolute;
     top: 1em;
     right: 1.5em;
@@ -64,17 +63,16 @@
     cursor: pointer;
 }
 
-.modal.appear {
+.modal.appear{
     opacity: 1;
     pointer-events: all;
 }
 
-.modal.appear .modalImg,
-{
+.modal.appear .modalImg{
     animation: zoom 0.6s ease-in-out;
 }
 
-@keyframes zoom {
+@keyframes zoom{
     from {transform: scale(0.1)} 
     to {transform: scale(1)}
 }

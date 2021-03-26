@@ -1,14 +1,28 @@
-main{
-    display: flex;
-    flex-direction: column;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0;
-    padding-top: 15vh;
+#bg{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    pointer-events: auto;
+    background: linear-gradient(#170944,#0d0c22,#030517);
+    background: -webkit-linear-gradient(#170944,#0d0c22,#030517);
 }
 
-.boox, .about, .projects, .socials {
-    z-index: 2;
+cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
+    display: none;
+}
+
+main{
+    width: fit-content;
+    /* display: flex;
+    flex-direction: column; */
+    padding-top: 15vh;
+    position: relative;
+}
+
+.boox, .about{
+    z-index: 1;
 }
 
 .boox{
@@ -32,9 +46,11 @@ main{
 }
 
 .about{
+    max-width: 1400px;
+    width: 80%;
     padding: 2em;
     padding-left: 3em;
-    margin: 7em 20px;
+    margin: 7em 0;
 }
 
 .about h1{font-size: 2.2em;}
@@ -46,7 +62,9 @@ main{
     align-items: center;
 }
 
-.socials{width: 100%;padding: 2em 0;}
+.socials{
+    width: fit-content;
+    margin: 2em auto;}
 
 .sm{margin: 3em 0;}
 
@@ -80,9 +98,7 @@ main{
     clip-path: polygon(93.30127018922194% 75%,93.30127018922194% 25.000000000000004%,50% 0%,6.698729810778062% 25.000000000000004%,6.698729810778062% 74.99999999999999%,49.99999999999994% 100%);
 }
 
-.icon:hover{
-    transform: translateY(-10px);
-}
+.icon:hover{transform: translateY(-10px);}
 
 .copyright{padding: 20px;}
 

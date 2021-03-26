@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>LilyKhan</title>
 	<link href="global.css" rel="stylesheet" type="text/css" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
@@ -12,8 +13,23 @@
 </head>
 
 <body>
-
-	<main class="zin">
+    <div id="bg">
+            <css-doodle click-to-update>
+                :doodle {
+                    @grid: 7 / 100vmax;
+                        }
+                @shape: clover 5;
+                background: hsla(
+                    calc(360 - @i * 4), 70%, 68%, @r.8
+                );
+                opacity: .4;
+                transform:
+                    scale(@r(.2, 1.5))
+                    translate(@m2.@r(±50%));
+                    
+            </css-doodle>
+    </div>
+	<main>
 		<div class="boox box">
 			<h1 class="name">Lily Khan</h1>
 		</div>
@@ -170,40 +186,10 @@
                 </div>
             </div>
             </div>
-            
             <div class="copyright">Made By Lily Khan💙</div>
-            
         </div>
     </main>
-    <div id="footer">
-                <css-doodle click-to-update>
-                :doodle {
-                    @grid: 7 / 100vmax;
-                        }
-                @shape: clover 5;
-                background: hsla(
-                    calc(600 - @i * 4), 70%, 68%, @r.8
-                );
-                transform:
-                    scale(@r(.2, 1.5))
-                    translate(@m2.@r(±50%));
-            </css-doodle>
-    </div>
-    <div id="bg">
-            <css-doodle click-to-update>
-                :doodle {
-                    @grid: 7 / 100vmax;
-                        }
-                @shape: clover 5;
-                background: hsla(
-                    calc(360 - @i * 4), 70%, 68%, @r.8
-                );
-                transform:
-                    scale(@r(.2, 1.5))
-                    translate(@m2.@r(±50%));
-                    
-            </css-doodle>
-    </div>
+    
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/css-doodle@0.14.2/css-doodle.min.js"></script>
