@@ -58,8 +58,8 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
 }
 
 .socials{
-    width: fit-content;
-    margin: 2em auto;
+    width: 100%;
+    padding: 2em 0;
 }
 
 .sm{
@@ -76,7 +76,7 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
 .icon{
     width: 97px;
     height: 92px;
-    margin: 5px 0;
+    margin: 7px 0;
     background: var(--white);
     display: flex;
     justify-content: center;
