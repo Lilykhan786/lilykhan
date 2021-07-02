@@ -16,4 +16,5 @@ I wanted to make my sit look small, easy and simple yet beautiful
 - Dribble: https://dribbble.com/lilykhan
 - Codepen: https://codepen.io/Lilykhan
 - Polywork: https://www.polywork.com/lilykhan
-- Behance:
+- Behance: https://www.behance.net/lilykhan
+- Dev.to: https://dev.to/lilykhan
