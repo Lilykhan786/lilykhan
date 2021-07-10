@@ -1,10 +1,9 @@
 # Lilykhan
 Hi! I'm Lily Khan, a teen front-end developer from India and this is my portfolio I made with html, css, css-doodles.
 
-### How I wanted my site to look and feel.
+### How I wanted my site to look and feel:
 
 I wanted to make my site look small, easy and simple yet beautiful. I'll update the site soon :)
-
 
 ### Links:
 - Portfolio Site:  https://lilykhan.repl.co/
@@ -19,7 +18,10 @@ I wanted to make my site look small, easy and simple yet beautiful. I'll update 
 - Behance: https://www.behance.net/lilykhan
 - Dev.to: https://dev.to/lilykhan
 
-### Todos
-- Add more in about me and remove all the box and stuff
-- Add linkedin in socilas 
-- move dribble and add behance in the about section
+___
+
+### Todos:
+
+- [ ] Add more in about me and remove all the box and stuff,
+- [ ] Add linkedin in socilas,
+- [ ] move dribble and add behance in the about section.
