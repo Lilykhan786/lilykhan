@@ -25,6 +25,6 @@ ___
 
 - [ ] Add more in about me and remove all the box and stuff,
 - [ ] Add linkedin in socilas,
-- [ ] move dribble and add behance in the about section.
-- [ ] add enviromation and more projects
-- [ ] Maybe diff section for more projctes or maybe not
+- [ ] move dribble and add behance in the about section,
+- [ ] add enviromation and more projects,
+- [ ] Maybe diff section for more projctes or maybe not.
