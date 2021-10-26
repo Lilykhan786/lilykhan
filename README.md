@@ -24,10 +24,9 @@ ___
 
 ### Todos:
 
-- [ ] Add more in about me and remove all the box and stuff,
+- [x] Add more in about me and remove all the box and stuff,
 - [ ] Add **linkedin** in socilas,
 - [ ] move **dribble** and add **behance** in the about section,
 - [ ] add **polywork**. in about (for hacks project info)
 - [ ] add enviromation and more projects,
 - [ ] Maybe diff section for more projctes or maybe not.
-- [ ] need to finish it be4 my bday, hope so
