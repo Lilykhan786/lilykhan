@@ -13,13 +13,14 @@
   margin: 3em 0;
   justify-content: center;
   text-align: left;
+  gap: 30px;
 }
 
 .card{
-  width: 230px;
-  height: 300px;
-  padding: 1.5em 1em 1.5em 1.5em;
-  margin: 1em;
+  width: 265px;
+  height: 350px;
+  padding: 1em;
+  /* margin: 1em; */
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,7 +35,8 @@
 }
 
 .deets p{
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: var(--text);
   opacity: .75;
 }
 
@@ -54,30 +56,30 @@
 
 /* project cards */
 
-.pro .card:nth-child(1){
+.card:nth-child(1){
   background-image:var(--card-g), url('/imgs/template.png');
 }
-.pro .card:nth-child(2){
+.card:nth-child(2){
   background-image:var(--card-g), url('/imgs/volant.png');
 }
-.pro .card:nth-child(3){
+.card:nth-child(3){
   background-image:var(--card-g), url('/imgs/todo.png');
 }
-.pro .card:nth-child(4){
+.card:nth-child(4){
   background-image:var(--card-g), url('/imgs/login.png');
 }
 
 /* contribution cards */
 
-.cont .card:nth-child(1){
+.card:nth-child(5){
   background-image:var(--card-g), url('/imgs/cj.png');
 }
-.cont .card:nth-child(2){
+.card:nth-child(6){
   background-image:var(--card-g), url('/imgs/noirnight.png');
 }
-.cont .card:nth-child(3){
+.card:nth-child(7){
   background-image:var(--card-g), url('/imgs/dreamcare.png');
 }
-.cont .card:nth-child(4){
+.card:nth-child(8){
   background-image:var(--card-g), url('/imgs/skinre.png');
 }
