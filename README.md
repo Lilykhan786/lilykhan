@@ -28,5 +28,5 @@ ___
 - [ ] Add **linkedin** and **polywork** in socilas,
 - [ ] add enviromation and more projects,
 - [ ] menu option on small screens 
-- [ ] tab size
+- [ ] tab and mobile size
 - [ ] btn to hide and show more projctes.
