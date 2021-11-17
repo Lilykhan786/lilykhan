@@ -30,3 +30,4 @@ ___
 - [ ] menu option on small screens 
 - [ ] tab and mobile size
 - [ ] btn to hide and show more projctes.
+- [ ] diff themes?
