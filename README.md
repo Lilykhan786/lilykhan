@@ -30,4 +30,4 @@ ___
 - [ ] btn to hide and show more projctes.
 - [ ] something really cool and diff?
 - [ ] start working on it after exams/christmas
-- [ ] complete it be4 new year
+- [ ] complete it be4 new year, hope so
