@@ -22,7 +22,7 @@ I wanted to make my site look small, easy and simple yet beautiful. I'll update 
 ___
 
 ### Todos:
-- [x] Add more in about me and remove all the box and stuff,
+- [x] Add more in about me,
 - [ ] Add **linkedin** and **polywork** in socilas,
 - [ ] add enviromation and more projects,
 - [ ] menu option on small screens 
