@@ -31,3 +31,4 @@ ___
 - [ ] something really cool and diff?
 - [ ] start working on it after exams/christmas
 - [ ] complete it be4 new year, hope so
+- [ ] add more colors 
