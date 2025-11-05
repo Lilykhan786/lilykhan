@@ -5,7 +5,6 @@ Hi! I'm Lily Khan, a teen front-end developer from India and this is my portfoli
 I wanted to make my site look small, easy and simple yet beautiful. I'll update the site soon:tm: :)
 
 ### Links:
-- Portfolio Site:  https://lilykhan.repl.co/
 - Devpost: https://devpost.com/lilykhan
 - GitHub: https://github.com/Lilykhan786 
 - Replit: https://replit.com/@lilykhan
@@ -16,19 +15,5 @@ I wanted to make my site look small, easy and simple yet beautiful. I'll update 
 - Polywork: https://www.polywork.com/lilykhan
 - Behance: https://www.behance.net/lilykhan
 - Dev.to: https://dev.to/lilykhan
-- Figma: https://www.figma.com/@Lilykhan
 - Hashnode: https://lily.hashnode.dev/
-- Peerlist: https://peerlist.io/lilykhan
 ___
-
-### Todos:
-- [x] Add more in about me,
-- [ ] Add **linkedin** and **polywork** in socilas,
-- [ ] add enviromation and more projects,
-- [ ] menu option on small screens 
-- [ ] tab and mobile size
-- [ ] btn to hide and show more projctes.
-- [ ] something really cool and diff?
-- [ ] start working on it after exams/christmas
-- [ ] complete it be4 new year, hope so
-- [ ] add more colors 
